@@ -1,0 +1,12 @@
+# Python 3.11 (versions used for the thesis)
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.5
+matplotlib==3.11.2
+scikit-learn==1.9.1
+torch==2.4.0
+statsmodels==0.15.0          # DTC: autocorrelation distance (tSdistances.py)
+tslearn==0.9.0               # DTC: time-series scaling (tSdistances.py)
+torchsom==1.3.0              # SOM
+# reading the raw LEGEND lh5 files (common/filereading.py, extract_* functions only, on the LEGEND server):
+# lh5 / legend-pydataobj and the LEGEND metadata, available only to the collaboration
