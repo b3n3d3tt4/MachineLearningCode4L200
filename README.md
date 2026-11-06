@@ -61,7 +61,6 @@ assignment q of the SSE-like cluster is the PSD variable.
 
 ```bash
 pip install -r requirements.txt
-python examples/synthetic_example.py        # runs on CPU in a few seconds, no data needed
 ```
 
 The modules import each other by name: add `common/` and the folder of the algorithm to `sys.path`, and set the
