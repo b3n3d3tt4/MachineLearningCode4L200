@@ -1,4 +1,4 @@
-# Machine-learning pulse-shape discrimination for LEGEND-200 – implementation
+# Machine Learning PSD for LEGEND-200 – implementation
 
 Implementation of the methods of my Master's thesis: pulse-shape discrimination (PSD) of single-site (SSE) and
 multi-site (MSE) events in inverted-coaxial HPGe detectors of LEGEND-200, from their current waveforms.
