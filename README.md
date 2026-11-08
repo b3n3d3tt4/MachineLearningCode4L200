@@ -1,13 +1,13 @@
 # Machine Learning PSD for LEGEND-200 – implementation
 
-Implementation of the methods of my Master's thesis: pulse-shape discrimination (PSD) of single-site (SSE) and
-multi-site (MSE) events in inverted-coaxial HPGe detectors of LEGEND-200, from their current waveforms.
+Implementation of the methods of my Master's thesis _Signal/background discrimination for the LEGEND-200 experiment using deep learning algorithms on GPUs_ which focuses on PSD of SSE and
+multi-site MSE events in ICPC HPGe detectors of LEGEND-200, from their current waveforms.
 
 | method | type | idea |
 |---|---|---|
 | **β-VAE + classifier** | semi-supervised | a β-VAE learns a latent space of the waveforms; a small classifier on the latent means separates SSE-like (²⁰⁸Tl DEP) from MSE-like (²¹²Bi FEP) events |
 | **DTC** – Deep Temporal Clustering | unsupervised | temporal autoencoder (Conv1D + BiLSTM) + clustering layer with Student-t soft assignments, trained jointly; Euclidean, Complexity Invariant (CID), correlation and autocorrelation (ACF) distances |
-| **SOM** – Self-Organizing Map | unsupervised | data preparation for a SOM (`torchsom`) on the same input of the DTC |
+| **SOM** – Self-Organizing Map | unsupervised | data preparation for a SOM (`torchsom` - `https://github.com/michelin/TorchSOM/blob/main/torchsom/utils/distances.py`) on the same input of the DTC |
 
 This repository contains **only the code**: no data, no trained models, no analysis notebooks and no results.
 LEGEND-200 data are internal to the collaboration.
