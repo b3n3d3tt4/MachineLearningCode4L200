@@ -1,4 +1,10 @@
 """
+------------------------------------------------------------------------------------------
+------ I strongly believe that alla of these data loading processes would have been ------
+------ much easier with Polars, but due to lack of experience with LEGEND data I did -----
+------ not know such method. Could be interesting to implement all the code with it ------
+------------------------------------------------------------------------------------------
+
 Functions to extract "clean" waveforms and energies (quality cuts + energy cut)
 from LEGEND lh5 files, at three increasing levels of granularity:
 
