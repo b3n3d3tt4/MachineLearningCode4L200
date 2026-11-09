@@ -1,6 +1,6 @@
 """
 ------------------------------------------------------------------------------------------
------- I strongly believe that alla of these data loading processes would have been ------
+------ I strongly believe that all of these data loading processes would have been -------
 ------ much easier with Polars, but due to lack of experience with LEGEND data I did -----
 ------ not know such method. Could be interesting to implement all the code with it ------
 ------------------------------------------------------------------------------------------
