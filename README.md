@@ -1,7 +1,7 @@
 # Machine Learning PSD for LEGEND-200 – implementation
 
 Implementation of the methods of my Master's thesis _Signal/background discrimination for the LEGEND-200 experiment using deep learning algorithms on GPUs_ which focuses on PSD of SSE and
-multi-site MSE events in IC HPGe detectors of LEGEND-200, from their current waveforms of <sup>228<sup>Th calibration data.
+multi-site MSE events in IC HPGe detectors of LEGEND-200, from their current waveforms of <sup>228</sup>Th calibration data.
 
 | method | type | idea |
 |---|---|---|
